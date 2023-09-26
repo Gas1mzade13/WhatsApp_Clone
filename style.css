@@ -1,0 +1,71 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 25px;
+  color: #ca4c4c;
+}
+
+input {
+  border: 2px solid #502f2f;
+}
+
+.btn {
+  border: 2px solid #118b8b;
+}
+
+#chat {
+  margin: 100px 0;
+}
+#chat .chat {
+  width: 100%;
+  background-color: #e4ecff;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 20px 0;
+}
+#chat .message {
+  height: 280px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: auto;
+}
+#chat .message::-webkit-scrollbar {
+  display: none;
+}
+#chat .message .end {
+  text-align: end;
+}
+#chat .message .line {
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #7991e7;
+  color: #ffffff;
+  text-align: start;
+  max-width: 50%;
+}
+#chat .text {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#chat .text input {
+  border-radius: 20px;
+  border: none;
+  margin-right: 15px;
+}
+#chat .text .sent {
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: #90a2d5;
+  color: #ffffff;
+  cursor: pointer;
+}
+#chat .text .sent h3 {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
